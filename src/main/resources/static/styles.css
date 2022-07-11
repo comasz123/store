@@ -1,0 +1,28 @@
+.logo {
+    width: 600px;
+    margin: 15px auto;
+    display: block;
+}
+.logo img {
+    width: 100%;
+}
+.menu {
+    text-align: center;
+    margin: 10px 0;
+    border-bottom: 1px solid black;
+    height: 35px;
+}
+.menu a {
+    font-size: 30px;
+    color: blueviolet;
+    text-decoration: none;
+    margin: 15px 15px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: color, background 0.5s;
+}
+.content {
+    width: 70%;
+    margin: 15px auto;
+    text-align: center;
+}

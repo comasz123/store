@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/styles.css">
+    <title>Fragments</title>
+</head>
+<body>
+<div class="menu" th:fragment="menu">
+    <a href="/main">Strona Główna</a>
+    <a href="/contact">Kontakt</a>
+    <a href="/login">Logowanie</a>
+</div>
+<a href="index.html" class="logo" th:fragment="logo">
+    <img src="/images.png"/>
+</a>
+
+
+</body>
+</html>
